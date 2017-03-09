@@ -56,7 +56,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dtu-DS-XQ3" id="ek3-7J-9AH">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y28-C3-Gfc">
@@ -82,7 +82,7 @@
                                 <rect key="frame" x="0.0" y="78" width="375" height="320"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mph-wV-asD" id="FOh-vi-Tvg">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="319"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="320"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P49-RK-Oyu">
@@ -106,7 +106,7 @@
                                             <rect key="frame" x="8" y="56" width="359" height="72"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="Rxa-sA-IDA">
-                                                    <rect key="frame" x="0.0" y="14" width="359" height="44.5"/>
+                                                    <rect key="frame" x="0.0" y="14" width="359" height="45"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="PBd-JQ-8k8">
                                                             <rect key="frame" x="0.0" y="0.0" width="171.5" height="44.5"/>
@@ -216,6 +216,7 @@
                                             <constraints>
                                                 <constraint firstItem="e4t-cJ-zAm" firstAttribute="centerY" secondItem="m5K-eQ-etu" secondAttribute="centerY" id="1PV-9k-4Tn"/>
                                                 <constraint firstItem="m5K-eQ-etu" firstAttribute="top" secondItem="le9-Ai-1g8" secondAttribute="top" constant="8" id="4BC-Uc-25j"/>
+                                                <constraint firstAttribute="height" priority="999" constant="86" id="Mun-iB-XDX"/>
                                                 <constraint firstItem="OhN-YS-edu" firstAttribute="top" secondItem="m5K-eQ-etu" secondAttribute="bottom" constant="10" id="dk0-qm-Gat"/>
                                                 <constraint firstAttribute="trailing" secondItem="OhN-YS-edu" secondAttribute="trailing" constant="8" id="hcJ-xB-7k8"/>
                                                 <constraint firstAttribute="trailing" secondItem="e4t-cJ-zAm" secondAttribute="trailing" constant="8" id="i86-BI-5fZ"/>
@@ -263,11 +264,10 @@
                                         <constraint firstItem="P49-RK-Oyu" firstAttribute="trailing" secondItem="FOh-vi-Tvg" secondAttribute="trailingMargin" id="fv5-DC-3P9"/>
                                         <constraint firstItem="le9-Ai-1g8" firstAttribute="top" secondItem="a9Q-Ov-IRw" secondAttribute="bottom" id="gak-BR-L7G"/>
                                         <constraint firstItem="RSu-fx-7Eg" firstAttribute="leading" secondItem="FOh-vi-Tvg" secondAttribute="leadingMargin" id="mZa-zC-EQB"/>
-                                        <constraint firstItem="fRi-7N-Slz" firstAttribute="top" secondItem="a9Q-Ov-IRw" secondAttribute="bottom" priority="999" constant="86" id="vdT-s3-50z"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="sizer" destination="vdT-s3-50z" id="oYA-m9-eT4"/>
+                                    <outlet property="sizer" destination="Mun-iB-XDX" id="hHm-dZ-Qer"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
