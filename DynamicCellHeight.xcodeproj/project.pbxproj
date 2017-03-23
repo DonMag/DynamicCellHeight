@@ -15,6 +15,8 @@
 		7CAE41C41E7099480023BA8B /* SampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAE41C31E7099480023BA8B /* SampleTableViewController.swift */; };
 		7CAE41C61E7099670023BA8B /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAE41C51E7099670023BA8B /* MainTableViewCell.swift */; };
 		7CAE41C81E7099760023BA8B /* SecondaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAE41C71E7099760023BA8B /* SecondaryTableViewCell.swift */; };
+		7CD145791E845CDC005BFF6F /* ThreePartDynaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD145781E845CDC005BFF6F /* ThreePartDynaTableViewCell.swift */; };
+		7CD1457B1E845D14005BFF6F /* SampleThreePartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD1457A1E845D14005BFF6F /* SampleThreePartTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		7CAE41C31E7099480023BA8B /* SampleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleTableViewController.swift; sourceTree = "<group>"; };
 		7CAE41C51E7099670023BA8B /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		7CAE41C71E7099760023BA8B /* SecondaryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondaryTableViewCell.swift; sourceTree = "<group>"; };
+		7CD145781E845CDC005BFF6F /* ThreePartDynaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreePartDynaTableViewCell.swift; sourceTree = "<group>"; };
+		7CD1457A1E845D14005BFF6F /* SampleThreePartTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleThreePartTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				7CAE41C31E7099480023BA8B /* SampleTableViewController.swift */,
 				7CAE41C51E7099670023BA8B /* MainTableViewCell.swift */,
 				7CAE41C71E7099760023BA8B /* SecondaryTableViewCell.swift */,
+				7CD145781E845CDC005BFF6F /* ThreePartDynaTableViewCell.swift */,
+				7CD1457A1E845D14005BFF6F /* SampleThreePartTableViewController.swift */,
 			);
 			path = DynamicCellHeight;
 			sourceTree = "<group>";
@@ -145,10 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CD145791E845CDC005BFF6F /* ThreePartDynaTableViewCell.swift in Sources */,
 				7CAE41C81E7099760023BA8B /* SecondaryTableViewCell.swift in Sources */,
 				7C1620891E6F53BB00FF197C /* ViewController.swift in Sources */,
 				7CAE41C61E7099670023BA8B /* MainTableViewCell.swift in Sources */,
 				7C1620871E6F53BB00FF197C /* AppDelegate.swift in Sources */,
+				7CD1457B1E845D14005BFF6F /* SampleThreePartTableViewController.swift in Sources */,
 				7CAE41C41E7099480023BA8B /* SampleTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

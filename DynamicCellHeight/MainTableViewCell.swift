@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 protocol MainCellDelegate {
 	func switchChanged(sender: UISwitch, cell: MainTableViewCell)
 }
