@@ -19,6 +19,9 @@ class ThreePartDynaTableViewCell: UITableViewCell {
 	
 	@IBOutlet weak var buttonMore: UIButton!
 	
+	@IBOutlet weak var sizingLabel: UILabel!
+	
+	
 	var delegate: ThreePartCellDelegate?
 
 	var _theBody: String?
@@ -30,7 +33,7 @@ class ThreePartDynaTableViewCell: UITableViewCell {
 		if sender is UIButton {
 			isExpanded = !isExpanded
 			
-			labelBody.numberOfLines = isExpanded ? 0 : 2
+			sizingLabel.numberOfLines = isExpanded ? 0 : 2
 			buttonMore.setTitle(isExpanded ? "Read less..." : "Read more...", for: .normal)
 			
 			delegate?.moreTapped(cell: self)
@@ -45,8 +48,11 @@ class ThreePartDynaTableViewCell: UITableViewCell {
 		labelTitle.text = theTitle
 		labelBody.text = theBody
 		
-		labelBody.numberOfLines = 2
-		
+		labelBody.numberOfLines = 0
+
+		sizingLabel.text = theBody
+		sizingLabel.numberOfLines = 2
+
 	}
 	
     override func awakeFromNib() {
