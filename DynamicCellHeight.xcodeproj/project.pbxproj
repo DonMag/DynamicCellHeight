@@ -12,6 +12,8 @@
 		7C16208C1E6F53BC00FF197C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C16208A1E6F53BC00FF197C /* Main.storyboard */; };
 		7C16208E1E6F53BC00FF197C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C16208D1E6F53BC00FF197C /* Assets.xcassets */; };
 		7C1620911E6F53BC00FF197C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C16208F1E6F53BC00FF197C /* LaunchScreen.storyboard */; };
+		7C76F85D1E8C083E0041733B /* NotSoGoodDynaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C76F85C1E8C083E0041733B /* NotSoGoodDynaTableViewCell.swift */; };
+		7C76F85F1E8C09400041733B /* NotSoGoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C76F85E1E8C09400041733B /* NotSoGoodTableViewController.swift */; };
 		7CAE41C41E7099480023BA8B /* SampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAE41C31E7099480023BA8B /* SampleTableViewController.swift */; };
 		7CAE41C61E7099670023BA8B /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAE41C51E7099670023BA8B /* MainTableViewCell.swift */; };
 		7CAE41C81E7099760023BA8B /* SecondaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAE41C71E7099760023BA8B /* SecondaryTableViewCell.swift */; };
@@ -27,6 +29,8 @@
 		7C16208D1E6F53BC00FF197C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C1620901E6F53BC00FF197C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C1620921E6F53BC00FF197C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C76F85C1E8C083E0041733B /* NotSoGoodDynaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSoGoodDynaTableViewCell.swift; sourceTree = "<group>"; };
+		7C76F85E1E8C09400041733B /* NotSoGoodTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSoGoodTableViewController.swift; sourceTree = "<group>"; };
 		7CAE41C31E7099480023BA8B /* SampleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleTableViewController.swift; sourceTree = "<group>"; };
 		7CAE41C51E7099670023BA8B /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		7CAE41C71E7099760023BA8B /* SecondaryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondaryTableViewCell.swift; sourceTree = "<group>"; };
@@ -70,13 +74,39 @@
 				7C16208D1E6F53BC00FF197C /* Assets.xcassets */,
 				7C16208F1E6F53BC00FF197C /* LaunchScreen.storyboard */,
 				7C1620921E6F53BC00FF197C /* Info.plist */,
+				7C76F85A1E8C07C20041733B /* Table A Example */,
+				7C76F85B1E8C07DD0041733B /* Table B Example */,
+				7C76F8601E8C09480041733B /* NotSoGood Table B */,
+			);
+			path = DynamicCellHeight;
+			sourceTree = "<group>";
+		};
+		7C76F85A1E8C07C20041733B /* Table A Example */ = {
+			isa = PBXGroup;
+			children = (
 				7CAE41C31E7099480023BA8B /* SampleTableViewController.swift */,
 				7CAE41C51E7099670023BA8B /* MainTableViewCell.swift */,
 				7CAE41C71E7099760023BA8B /* SecondaryTableViewCell.swift */,
+			);
+			name = "Table A Example";
+			sourceTree = "<group>";
+		};
+		7C76F85B1E8C07DD0041733B /* Table B Example */ = {
+			isa = PBXGroup;
+			children = (
 				7CD145781E845CDC005BFF6F /* ThreePartDynaTableViewCell.swift */,
 				7CD1457A1E845D14005BFF6F /* SampleThreePartTableViewController.swift */,
 			);
-			path = DynamicCellHeight;
+			name = "Table B Example";
+			sourceTree = "<group>";
+		};
+		7C76F8601E8C09480041733B /* NotSoGood Table B */ = {
+			isa = PBXGroup;
+			children = (
+				7C76F85C1E8C083E0041733B /* NotSoGoodDynaTableViewCell.swift */,
+				7C76F85E1E8C09400041733B /* NotSoGoodTableViewController.swift */,
+			);
+			name = "NotSoGood Table B";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +185,8 @@
 				7CAE41C81E7099760023BA8B /* SecondaryTableViewCell.swift in Sources */,
 				7C1620891E6F53BB00FF197C /* ViewController.swift in Sources */,
 				7CAE41C61E7099670023BA8B /* MainTableViewCell.swift in Sources */,
+				7C76F85D1E8C083E0041733B /* NotSoGoodDynaTableViewCell.swift in Sources */,
+				7C76F85F1E8C09400041733B /* NotSoGoodTableViewController.swift in Sources */,
 				7C1620871E6F53BB00FF197C /* AppDelegate.swift in Sources */,
 				7CD1457B1E845D14005BFF6F /* SampleThreePartTableViewController.swift in Sources */,
 				7CAE41C41E7099480023BA8B /* SampleTableViewController.swift in Sources */,

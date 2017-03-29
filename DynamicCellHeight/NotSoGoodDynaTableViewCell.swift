@@ -1,29 +1,27 @@
 //
-//  ThreePartDynaTableViewCell.swift
+//  NotSoGoodDynaTableViewCell.swift
 //  DynamicCellHeight
 //
-//  Created by Don Mag on 3/23/17.
+//  Created by Don Mag on 3/29/17.
 //  Copyright © 2017 DonMag. All rights reserved.
 //
 
 import UIKit
 
-protocol ThreePartCellDelegate {
-	func moreTapped(cell: ThreePartDynaTableViewCell)
+protocol NotSoGoodCellDelegate {
+	func moreTapped(cell: NotSoGoodDynaTableViewCell)
 }
 
-class ThreePartDynaTableViewCell: UITableViewCell {
+
+class NotSoGoodDynaTableViewCell: UITableViewCell {
 
 	@IBOutlet weak var labelTitle: UILabel!
 	@IBOutlet weak var labelBody: UILabel!
 	
 	@IBOutlet weak var buttonMore: UIButton!
-	
-	@IBOutlet weak var sizingLabel: UILabel!
-	
-	
-	var delegate: ThreePartCellDelegate?
 
+	var delegate: NotSoGoodCellDelegate?
+	
 	var isExpanded: Bool = false
 	
 	@IBAction func btnMoreTapped(_ sender: Any) {
@@ -31,7 +29,7 @@ class ThreePartDynaTableViewCell: UITableViewCell {
 		if sender is UIButton {
 			isExpanded = !isExpanded
 			
-			sizingLabel.numberOfLines = isExpanded ? 0 : 2
+			labelBody.numberOfLines = isExpanded ? 0 : 2
 			buttonMore.setTitle(isExpanded ? "Read less..." : "Read more...", for: .normal)
 			
 			delegate?.moreTapped(cell: self)
@@ -46,11 +44,8 @@ class ThreePartDynaTableViewCell: UITableViewCell {
 		labelTitle.text = theTitle
 		labelBody.text = theBody
 		
-		labelBody.numberOfLines = 0
-
-		sizingLabel.text = theBody
-		sizingLabel.numberOfLines = 2
-
+		labelBody.numberOfLines = 2
+		
 	}
 	
     override func awakeFromNib() {
