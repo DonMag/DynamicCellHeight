@@ -23,32 +23,32 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="LO9-Sl-5aC">
-                                <rect key="frame" x="92" y="243.5" width="190" height="180"/>
+                                <rect key="frame" x="76.5" y="243.5" width="221" height="180"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yta-6a-HLv">
-                                        <rect key="frame" x="33" y="0.0" width="124" height="30"/>
-                                        <state key="normal" title="Show Tableview A"/>
+                                        <rect key="frame" x="74.5" y="0.0" width="72" height="30"/>
+                                        <state key="normal" title="Example A"/>
                                         <connections>
                                             <segue destination="UBw-yC-nJW" kind="show" id="Pqv-yh-9q1"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hrZ-AH-OEx">
-                                        <rect key="frame" x="33" y="50" width="124" height="30"/>
-                                        <state key="normal" title="Show Tableview B"/>
+                                        <rect key="frame" x="74.5" y="50" width="72" height="30"/>
+                                        <state key="normal" title="Example B"/>
                                         <connections>
                                             <segue destination="Ivx-9m-7YN" kind="show" id="LxL-j8-yxy"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PcS-RY-0JY">
-                                        <rect key="frame" x="0.0" y="100" width="190" height="30"/>
-                                        <state key="normal" title="Show Not-So-Good Table B"/>
+                                        <rect key="frame" x="13.5" y="100" width="194" height="30"/>
+                                        <state key="normal" title="Example C (Not-So-Good B)"/>
                                         <connections>
                                             <segue destination="v2K-fx-hoJ" kind="show" id="PHJ-2J-XDW"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFh-3W-Ezf">
-                                        <rect key="frame" x="7.5" y="150" width="175" height="30"/>
-                                        <state key="normal" title="Table with CollectionView"/>
+                                        <rect key="frame" x="0.0" y="150" width="221" height="30"/>
+                                        <state key="normal" title="Example D (with CollectionView)"/>
                                         <connections>
                                             <segue destination="d78-ac-aD4" kind="show" id="HMj-YX-Pgd"/>
                                         </connections>
@@ -82,7 +82,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dtu-DS-XQ3" id="ek3-7J-9AH">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y28-C3-Gfc">
@@ -108,7 +108,7 @@
                                 <rect key="frame" x="0.0" y="78" width="375" height="311"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mph-wV-asD" id="FOh-vi-Tvg">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="311"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="310"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P49-RK-Oyu">
@@ -338,7 +338,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="95"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7hX-3l-tpN" id="AiQ-MG-8Xr">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="95"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="94"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rX7-t1-MwX">
@@ -546,7 +546,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="95"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="txq-Uv-iWh" id="x3t-i6-Ldc">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="95"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="94"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OoZ-9r-JeX">
