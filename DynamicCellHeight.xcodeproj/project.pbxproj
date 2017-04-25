@@ -12,6 +12,8 @@
 		7C16208C1E6F53BC00FF197C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C16208A1E6F53BC00FF197C /* Main.storyboard */; };
 		7C16208E1E6F53BC00FF197C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C16208D1E6F53BC00FF197C /* Assets.xcassets */; };
 		7C1620911E6F53BC00FF197C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C16208F1E6F53BC00FF197C /* LaunchScreen.storyboard */; };
+		7C729E3C1EAFE2AB00C22170 /* WithPickerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C729E3B1EAFE2AB00C22170 /* WithPickerTableViewController.swift */; };
+		7C729E3E1EAFE42800C22170 /* MyPickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C729E3D1EAFE42800C22170 /* MyPickerTableViewCell.swift */; };
 		7C76F85D1E8C083E0041733B /* NotSoGoodDynaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C76F85C1E8C083E0041733B /* NotSoGoodDynaTableViewCell.swift */; };
 		7C76F85F1E8C09400041733B /* NotSoGoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C76F85E1E8C09400041733B /* NotSoGoodTableViewController.swift */; };
 		7CAE41C41E7099480023BA8B /* SampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAE41C31E7099480023BA8B /* SampleTableViewController.swift */; };
@@ -33,6 +35,8 @@
 		7C16208D1E6F53BC00FF197C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C1620901E6F53BC00FF197C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C1620921E6F53BC00FF197C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C729E3B1EAFE2AB00C22170 /* WithPickerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithPickerTableViewController.swift; sourceTree = "<group>"; };
+		7C729E3D1EAFE42800C22170 /* MyPickerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPickerTableViewCell.swift; sourceTree = "<group>"; };
 		7C76F85C1E8C083E0041733B /* NotSoGoodDynaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSoGoodDynaTableViewCell.swift; sourceTree = "<group>"; };
 		7C76F85E1E8C09400041733B /* NotSoGoodTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSoGoodTableViewController.swift; sourceTree = "<group>"; };
 		7CAE41C31E7099480023BA8B /* SampleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleTableViewController.swift; sourceTree = "<group>"; };
@@ -87,8 +91,18 @@
 				7C76F8601E8C09480041733B /* NotSoGood Table B */,
 				7CE0BCD31E9BCF820008C415 /* Table With Collection View */,
 				7CE0BCD11E9BC1FA0008C415 /* Misc.swift */,
+				7C729E3F1EAFF14700C22170 /* Cells with PickerView */,
 			);
 			path = DynamicCellHeight;
+			sourceTree = "<group>";
+		};
+		7C729E3F1EAFF14700C22170 /* Cells with PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				7C729E3B1EAFE2AB00C22170 /* WithPickerTableViewController.swift */,
+				7C729E3D1EAFE42800C22170 /* MyPickerTableViewCell.swift */,
+			);
+			name = "Cells with PickerView";
 			sourceTree = "<group>";
 		};
 		7C76F85A1E8C07C20041733B /* Table A Example */ = {
@@ -203,6 +217,7 @@
 			files = (
 				7CD145791E845CDC005BFF6F /* ThreePartDynaTableViewCell.swift in Sources */,
 				7CAE41C81E7099760023BA8B /* SecondaryTableViewCell.swift in Sources */,
+				7C729E3E1EAFE42800C22170 /* MyPickerTableViewCell.swift in Sources */,
 				7C1620891E6F53BB00FF197C /* ViewController.swift in Sources */,
 				7CAE41C61E7099670023BA8B /* MainTableViewCell.swift in Sources */,
 				7C76F85D1E8C083E0041733B /* NotSoGoodDynaTableViewCell.swift in Sources */,
@@ -210,6 +225,7 @@
 				7CE0BCCA1E9BACE70008C415 /* WithCollViewsTableViewController.swift in Sources */,
 				7C1620871E6F53BB00FF197C /* AppDelegate.swift in Sources */,
 				7CD1457B1E845D14005BFF6F /* SampleThreePartTableViewController.swift in Sources */,
+				7C729E3C1EAFE2AB00C22170 /* WithPickerTableViewController.swift in Sources */,
 				7CE0BCD01E9BBC280008C415 /* DynCollViewTableViewCell.swift in Sources */,
 				7CE0BCCE1E9BB1DF0008C415 /* SimpleTableViewCell.swift in Sources */,
 				7CE0BCD21E9BC1FA0008C415 /* Misc.swift in Sources */,
